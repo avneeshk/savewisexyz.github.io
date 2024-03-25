@@ -7,8 +7,37 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-PJ9B95FS');</script>
         <!-- End Google Tag Manager -->
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
         <title>Savewise</title>
+        <style>
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                font-family: 'Inter', sans-serif;
+                min-height: 100vh;
+                padding: 20px;
+            }
+
+            #welcome_text {
+                padding-top: 20px;
+            }
+
+            img {
+                width: 250px;
+            }
+
+            #getWaitListContainer {
+                padding-top: 20px;
+                
+            }
+
+        </style>
     </head>
     <body>
         <!-- Google Tag Manager (noscript) -->
@@ -16,8 +45,8 @@
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ9B95FS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
-        Welcome to savewise. Smart moves start here.
-        <a href="#">TEST - Join Waitlist</a>
+        <img src="logo.svg" />
+        <span id="welcome_text">Welcome to savewise. Smart moves start here.</span>
         <!-- Test Waitlist -->
         <div id="getWaitlistContainer" data-waitlist_id="14896" data-widget_type="WIDGET_2"></div>
         <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
