@@ -326,7 +326,7 @@ header #blur {
 	font-weight: 400;
 	margin-bottom: 0;
 	margin-top: 0;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 }
 
 #cards .card h3 {
