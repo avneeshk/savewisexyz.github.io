@@ -143,6 +143,17 @@ input::-moz-focus-inner {
 	margin: 0 auto;
 	max-width: 1164px;
 	width: 90%;
+	display: flex;
+	flex-direction: row;
+}
+
+h1#savewise-titlemark {
+	font-family: Inter;
+	font-weight: 700;
+	font-size: 48px;
+	color: #FFFFFF;
+	align-self: center;
+	padding-left: 20px;
 }
 
 h2 {
@@ -410,6 +421,10 @@ footer ul li:last-child {
 #legal-list ul li:before {
 	content: counter(subsection, lower-alpha) ") ";
 	font-weight: normal;
+}
+
+header #nav svg {
+	align-self: center;
 }
 
 body#home header #nav .logo svg path {
